@@ -1,0 +1,292 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  :root{
+  
+    --header:#131921;
+    --yellow:#febd69;
+    --footer:#232f3e;
+    --orange:#bf4800;
+    --gray:rgba(196, 194, 194, 0.655);
+  }
+  body{
+    background-color: var(--gray) !important;
+  }
+
+/* --------------------------header------------------------------------------------------------------ */
+
+ul.dropdown-menu{
+ width: 50% !important;
+}
+
+.bg-hover-top-list:hover{
+  color: var(--yellow)!important;
+  background-color: var(--header) !important;
+}
+
+.bg-hover-top-list{
+  padding: 10% !important;
+}
+
+
+
+/* -----------------------------------------------------global----------------------------------- */
+Header{   
+
+  background-color:var(--header);
+}
+.headerColor{
+  background-color:var(--header) !important
+}
+
+.tinyBorder{
+  border-bottom: 0.02rem solid rgba(39, 62, 90, 0.968) !important;
+}
+footer,.footerColor{
+  background-color: var(--footer);
+  
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+button{
+
+  background-color: var(--footer);
+  color: white;
+  
+}
+button:hover,.button:hover{
+   background-color: var(--yellow);
+  color: var(--header);
+  border: none;
+}
+.fs-small{
+  font-size: 80%;
+}
+.text-gray{
+  color: #9a9498 !important;
+  font-weight: bolder;
+}
+.left-0{
+
+  left: 0% !important;
+}
+.color-orange{
+  color: var(--orange);
+}
+.color-yellow{
+  color: var(--yellow);
+}
+.bg-hover:hover{
+  color: var(--yellow) !important;
+}
+.hover-d-block:hover .right-icons{
+  display: block !important;
+}
+.bg-gray{
+  background-color: var(--gray);
+
+}
+/* ------------------------------------------------media queries------------------------------------ */
+
+@media (max-width: 575px){
+/* image of second section in home page */
+  .small-image{
+
+  width: 20vw !important;
+  height: 9vh !important;
+}
+ button{
+
+  font-size: 45% !important;
+  
+ }
+
+
+
+  h4,input{
+
+    font-size: 70% !important;
+
+  }
+  
+
+  h2{
+    font-size:0.6em !important;
+  }
+
+  p{
+
+    font-size:40% !important;
+  }
+  
+  h4.fs-normal{
+
+    font-size: 1.6em !important;
+  }
+  
+  .size-small{
+
+    width: 5em !important;
+    height: 3em !important;
+    
+  }
+  h1{
+    font-size: 1.4em !important;
+   }
+   /* most top home products  */
+   .main-container{
+    height: 18vh !important;
+   }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+ /* image of second section in home page */
+  .small-image{
+
+    width: 15vw !important;
+    height: 10vh !important;
+  }
+ 
+  h4,input,p{
+
+    font-size: 70% !important;
+
+  }
+
+  h2{
+    font-size:1.2em !important;
+  }
+  h1{
+    font-size: 2em !important;
+   }
+     /* most top home products  */
+   .main-container{
+    height: 20vh !important;
+   }
+   button{
+    font-size: 70% !important;
+   }
+  
+  
+}
+
+@media (min-width: 769px) and (max-width: 992px) { 
+/* image of second section in home page */
+  .small-image{
+
+    width: 15vw !important;
+    height: 15vh !important;
+  }
+/* text size */
+   h4,input{
+
+    font-size: 100% !important;
+
+  }
+
+  h2{
+    font-size:1.3em !important;
+  }
+  p{
+
+    font-size:80% !important;
+  }
+  h1{
+    font-size: 2em !important;
+   }
+   button{
+    font-size: 0.8em !important;
+   }
+     /* most top home products  */
+   .main-container{
+    height: 23vh !important;
+   }
+ }
+
+@media (min-width: 993px) and (max-width: 1199px) {
+  /* image of second section in home page */
+  .small-image{
+
+    width: 13vw !important;
+    height: 15vh !important;
+  }
+   h4,input{
+
+    font-size: 100% !important;
+
+  }
+
+  h2{
+    font-size:1.3em !important;
+  }
+
+ p{
+
+  font-size: 70%;
+ }
+ 
+ h1{
+  font-size: 2em !important;
+ }  
+
+ header{
+  height: 7em !important;
+}
+button{
+  font-size: 1em !important;
+ 
+}
+  /* most top home products  */
+.main-container{
+  height: 30vh !important;
+ }
+
+ }
+
+
+
+@media  (min-width: 1200px) {
+
+  /* image of second section in home page */
+  .small-image{
+
+    width: 10vw !important;
+    height: 18vh !important;
+  }
+  h4,input{
+
+    font-size: 100% !important;
+
+  }
+
+  h2{
+    font-size:1.3em !important;
+  }
+
+ 
+  h2.fs-big{
+
+    font-size: 2em !important;
+  }
+   h1{
+    font-size: 2em !important;
+   }
+ 
+   button.main{
+    font-size: 1.1em !important;
+   
+  }
+}
+
+@media  (min-width: 1024px){
+  .home{
+    height: 55em !important;
+  }
+}
+/* -------------------------------------------------------------------------------------------------- */
