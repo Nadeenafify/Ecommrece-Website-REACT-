@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-const Product=()=>import  ('../Components/Product')
+import Product from '../Components/Product';
 import { IoClose } from "react-icons/io5";
 import { removeFromFavourite } from '../rtk/FavouriteSlice'
 import { Helmet } from 'react-helmet';

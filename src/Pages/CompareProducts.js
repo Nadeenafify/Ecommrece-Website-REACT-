@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {removeFromCompare} from "../rtk/CompareSlice"
-const Product=()=>import ( '../Components/Product')
+import Product from  '../Components/Product'
 import { IoClose } from "react-icons/io5";
 import { Helmet } from 'react-helmet'
 

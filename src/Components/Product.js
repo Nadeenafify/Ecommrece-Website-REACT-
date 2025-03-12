@@ -19,6 +19,7 @@ const product = (props) => {
                         starDimension="0.9em"
                         starSpacing="0.2em"
                       />
+   
         <h4 className='fw-bold'>{props.text}<br/>10 Back Multi Colored</h4>
         <p>${props.price}</p>
         </div>

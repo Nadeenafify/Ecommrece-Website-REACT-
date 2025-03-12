@@ -11,23 +11,23 @@ import {useMyContext} from "../ContextAPI/ContextAPI"
 import Alert from 'react-bootstrap/Alert';
 
 // -------------------------------------images------------------------------------------------------
-import brand1 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-01.png"
-import brand2 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-02.png"
-import brand3 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-03.png"
-import brand4 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-04.png"
-import brand5 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-05.png"
-import brand6 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-06.png"
-import brand7 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\brand-07.png"
+const brand1 = "images\\brand-01.png"
+const brand2 = "images\\brand-02.png"
+const brand3 = "images\\brand-03.png"
+const brand4 = "images\\brand-04.png"
+const brand5 ="images\\brand-05.png"
+const brand6 ="images\\brand-06.png"
+const brand7 = "images\\brand-07.png"
 
-import main1 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\main1.jpg"
-import main2 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\main2.jpg"
-import main3 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\main3.jpg"
-import main4 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\main4.jpg"
+const main1 = "images\\main1.jpg"
+const main2 = "images\\main2.jpg"
+const main3 = "images\\main3.jpg"
+const main4 = "images\\main4.jpg"
 
-import service2 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\service-02.png"
-import service3 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\service-03.png"
-import service4 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\service-04.png"
-import service5 from "C:\\Users\\pc\\Desktop\\Latest_React_project\\e-commerce-latest\\public\\images\\service-05.png"
+const service2 = "images\\service-02.png"
+const service3 = "images\\service-03.png"
+const service4 = "images\\service-04.png"
+const service5 = "images\\service-05.png"
 
 // --------------------------------------------------------------------------------------
 const Home = () => {
