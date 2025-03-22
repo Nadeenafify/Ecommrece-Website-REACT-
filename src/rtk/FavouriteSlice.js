@@ -7,10 +7,10 @@ const FavouriteSlice= createSlice({
     reducers:{
         addToFavourite:(state,action)=>{
 
-               if(state.find((product)=>product.id==action.payload.id))
-                 return
-               else
-                 state.push(action.payload)
+          if (!state.some((product) => product.image === action.payload.image)) {  
+            state.push(action.payload);
+          }
+              
                
         },
 

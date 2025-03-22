@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
 import {Store} from "./rtk/Store"
 import { MyProvider } from './ContextAPI/ContextAPI';
-
+import { Toaster } from 'react-hot-toast';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    
@@ -14,6 +14,7 @@ root.render(
      <Provider store={Store}>
         <MyProvider> 
              <App />
+             <Toaster position="top-right" />
           </MyProvider>  
       
     </Provider>
