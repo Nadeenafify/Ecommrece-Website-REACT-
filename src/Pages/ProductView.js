@@ -11,7 +11,7 @@ import {useMyContext} from "../ContextAPI/ContextAPI"
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import StarRatings from 'react-star-ratings';
-
+import toast from 'react-hot-toast';
 
 const ProductView = () => {
 
@@ -86,7 +86,7 @@ const ProductView = () => {
                       <h4 className='fw-bold mt-2'>Quantity : </h4> 
                       <input value={quantity} onChange={handlechange} type="number" min={1} className='ms-2 mt-2 mb-2'  style={{height:"10%",width: "15%"}} />
                       <div className='d-flex mt-1 '>
-                      <button className='rounded p-1 ms-2 ms-lg-4' onClick={()=>{dispatch(addToCart({...product,quantity:quantity}))}}>Add to chart</button>
+                      <button className='rounded p-1 ms-2 ms-lg-4' onClick={()=>{dispatch(addToCart({...product,quantity:quantity}));toast.success("added Successfully")}}>Add to chart</button>
                       <button className='rounded p-1 ms-1 ms-lg-3'onClick={()=>{navigate(!isLogged?"/login":"/payments", { state: {price:product.price} });}}>Buy now</button>
                      </div>
                      </div>
@@ -95,11 +95,11 @@ const ProductView = () => {
                      <div className='d-flex flex-wrap mt-4 '>
                       <div className='d-flex'>
                      <MdFavoriteBorder className='fs-6 me-1 ' />  
-                     <p className='cursor-pointer' onClick={()=>{dispatch(addToFavourite(product))}}>Add To wishlist</p> 
+                     <p className='cursor-pointer' onClick={()=>{dispatch(addToFavourite(product));toast.success("added Successfully")}}>Add To wishlist</p> 
                      </div>
                      <div className='d-flex'>
                      <IoGitCompareOutline className='fs-6 ms-lg-5 me-1 '/> 
-                     <p className='cursor-pointer' onClick={()=>{dispatch(addToCompare(product))}}>Add to compare</p>
+                     <p className='cursor-pointer' onClick={()=>{dispatch(addToCompare(product));toast.success("added Successfully")}}>Add to compare</p>
                      </div>
                      </div>
         
